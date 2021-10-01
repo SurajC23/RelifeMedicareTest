@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "595829294128",
+    "project_id": "relifemedicare-bee8a",
+    "storage_bucket": "relifemedicare-bee8a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595829294128:android:123484193dd7f87e5799f5",
+        "android_client_info": {
+          "package_name": "com.mocktest.relifemedicare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "595829294128-pmkerdqtl5sm6bgvi0b30rnfplc82aln.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mocktest.relifemedicare",
+            "certificate_hash": "eb9f6ccfe70521ef66d78597f594729b7b0c8aa9"
+          }
+        },
+        {
+          "client_id": "595829294128-62g9n9h2l658e4pibrluc1m767miirti.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD__i-27c8zCIyk2KoJ-tLmQPxZiNAg6vE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "595829294128-62g9n9h2l658e4pibrluc1m767miirti.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

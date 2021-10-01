@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mocktest.relifemedicare">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_square"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_circle"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RelifeMedicare"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".view.activities.DetailedActivity"
+            android:theme="@style/Theme.MainAppColor"/>
+        <activity android:name=".view.activities.OtpVerificationActivity" />
+        <activity android:name=".view.activities.RegisterActivity" />
+        <activity android:name=".view.activities.LoginActivity" />
+        <activity android:name=".view.activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.activities.MainActivity"
+            android:theme="@style/Theme.MainAppColor" />
+    </application>
+
+</manifest>
